@@ -98,7 +98,6 @@ collections:
         name: "testimonials"
         widget: "list"
         fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-           - {label: Name, name: name, widget: string, default: "Emmet"}
-          - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
-         
+               - { name: "judulx", label: "Judulx", widget: "string" }
+                - { name: "descri", label: "Deskripsic", widget: "text" }
+                - { name: "imageg", label: "Gambard", widget: "image" }
