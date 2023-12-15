@@ -24,7 +24,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("rups", params.project).fetch();
+      post = await $content("rups", params.rups).fetch();
     } catch (e) {
       error({ message: "Project not found" });
     }
