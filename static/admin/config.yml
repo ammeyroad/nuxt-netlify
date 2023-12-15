@@ -80,9 +80,9 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
-  - name: "project"
+  - name: "rups"
     label: "Project"
-    folder: "content/project"
+    folder: "content/rups"
     create: true
     slug: "{{slug}}"
     fields:
