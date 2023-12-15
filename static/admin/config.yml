@@ -68,6 +68,9 @@ collections:
         required: true
         widget: markdown
         buttons: []
+        
+        - label: "Profile"
+        name: "profile"
         widget: "object"
         fields: 
           - {label: "judul", name: "judul", widget: "string"}
