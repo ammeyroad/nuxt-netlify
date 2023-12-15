@@ -2,7 +2,7 @@
   <main>
     <section v-if="posts" class="w-full max-w-5xl mx-auto">
       <h1 class="title">articles</h1>
-      <posts post-type="blog" :amount="10" />
+      <posts post-type="articles" :amount="10" />
     </section>
   </main>
 </template>
