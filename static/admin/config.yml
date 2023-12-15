@@ -101,4 +101,4 @@ collections:
           - {label: "judul", name: "judul", widget: "string"}
           - {label: "tahun", name: "tahun", widget: "string"}
           - {label: "link", name: "link", widget: "string"}
-          - {label: "cover", name: "cover", widget: "image", allow_multiple: "false"}
+          - { name: "image", label: "Gambar", widget: "image" }
