@@ -94,11 +94,14 @@ collections:
       - { name: "slug", label: "Slug", widget: "string" }
       - { name: "body", label: "Isi", widget: "markdown" }
       - { name: "date", label: "Tanggal", widget: "datetime" }
-      - label: "Profile"
-        name: "profile"
-        widget: "object"
-        fields: 
-          - {label: "judul", name: "judul", widget: "string"}
-          - {label: "tahun", name: "tahun", widget: "string"}
-          - {label: "link", name: "link", widget: "string"}
-          - { name: "image", label: "Gambar", widget: "image" }
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
