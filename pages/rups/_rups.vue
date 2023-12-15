@@ -7,8 +7,8 @@
 
       <article>
      
-        <h1 class="">{{ post.judul }}</h1>
-        <p class="mt-1 mb-8 text-primary-600 dark:text-primary-400">{{ post.deskripsi }}</p>
+        <h1 class="">{{ post.title }}</h1>
+        <p class="mt-1 mb-8 text-primary-600 dark:text-primary-400">{{ post.description }}</p>
       </article>
     </section>
   </main>
