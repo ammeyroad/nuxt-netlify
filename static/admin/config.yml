@@ -80,16 +80,17 @@ collections:
           summary: '{{fields.image}}',
           field: { label: 'Image', name: 'image', widget: 'image' },
         }
-  - name: "rups"
-    label: "Project"
-    folder: "content/rups"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { name: "title", label: "Judul", widget: "string" }
-      - { name: "description", label: "Deskripsi", widget: "text" }
-      - { name: "image", label: "Gambar", widget: "image" }
-      - { name: "category", label: "Kategori", widget: "string" }
-      - { name: "slug", label: "Slug", widget: "string" }
-      - { name: "body", label: "Isi", widget: "markdown" }
-      - { name: "date", label: "Tanggal", widget: "datetime" }
+ - name: 'rups'
+label: 'rups'
+folder: 'content/rups'
+create: true
+slug: '{{slug}}'
+preview_path: 'rups/{{slug}}'
+fields:
+  - { name: 'title', label: 'Judul', widget: 'string' }
+  - { name: 'description', label: 'Deskripsi', widget: 'text' }
+  - { name: 'image', label: 'Gambar', widget: 'image' }
+  - { name: 'category', label: 'Kategori', widget: 'string' }
+  - { name: 'slug', label: 'Slug', widget: 'string' }
+  - { name: 'body', label: 'Isi', widget: 'markdown' }
+  - { name: 'date', label: 'Tanggal', widget: 'datetime' }
