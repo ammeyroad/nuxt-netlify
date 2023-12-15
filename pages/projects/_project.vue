@@ -33,7 +33,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("rups", params.project).fetch();
+      post = await $content("project", params.project).fetch();
     } catch (e) {
       error({ message: "Project not found" });
     }
