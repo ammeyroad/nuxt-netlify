@@ -98,6 +98,6 @@ collections:
         name: "testimonials"
         widget: "list"
         fields:
-               - { name: "judulx", label: "Judulx", widget: "string" }
-                - { name: "descri", label: "Deskripsic", widget: "text" }
-                - { name: "imageg", label: "Gambard", widget: "image" }
+               - { name: "title", label: "Judul", widget: "string" }
+      - { name: "description", label: "Deskripsi", widget: "text" }
+      - { name: "image", label: "Gambar", widget: "image" }
