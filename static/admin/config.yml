@@ -98,6 +98,6 @@ collections:
         name: "testimonials"
         widget: "list"
         fields:
-               - { name: "title", label: "Judul", widget: "string" }
-      - { name: "description", label: "Deskripsi", widget: "text" }
-      - { name: "image", label: "Gambar", widget: "image" }
+               - { name: "isi", label: "Judul", widget: "string" }
+      - { name: "penjelasan", label: "Deskripsi", widget: "text" }
+      - { name: "gambar", label: "Gambar", widget: "image" }
