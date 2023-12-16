@@ -81,23 +81,24 @@ collections:
         name: title
         required: true
         widget: string
-  - name: "rups"
-    label: "Project"
-    folder: "content/rups"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { name: "title", label: "Judul", widget: "string" }
-      - { name: "description", label: "Deskripsi", widget: "text" }
-      - { name: "image", label: "Gambar", widget: "image" }
-      - { name: "category", label: "Kategori", widget: "string" }
-      - { name: "slug", label: "Slug", widget: "string" }
-      - { name: "body", label: "Isi", widget: "markdown" }
-      - { name: "date", label: "Tanggal", widget: "datetime" }
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        fields:
-               - { name: "isi", label: "Judul", widget: "string" }
-      - { name: "penjelasan", label: "Deskripsi", widget: "text" }
-      - { name: "gambar", label: "Gambar", widget: "image" }
+  name: "rups"
+- label: "rups"
+  folder: "content/rups"
+  create: true
+  slug: "{{slug}}"
+  fields:
+    - { name: "title", label: "Judul", widget: "string" }
+    - { name: "description", label: "Deskripsi", widget: "text" }
+    - { name: "image", label: "Gambar", widget: "image" }
+    - { name: "category", label: "Kategori", widget: "string" }
+    - { name: "slug", label: "Slug", widget: "string" }
+    - { name: "body", label: "Isi", widget: "markdown" }
+    - { name: "date", label: "Tanggal", widget: "datetime" }
+    - label: "Testimonials"
+      name: "testimonials"
+      widget: "list"
+      fields:
+        - { name: "judul", label: "Judul Testimonial", widget: "string" }
+        - { name: "deskripsi", label: "Deskripsi Testimonial", widget: "text" }
+        - { name: "gambar", label: "Gambar Testimonial", widget: "image" }
+        - { name: "link", label: "Link Testimonial", widget: "string" }
